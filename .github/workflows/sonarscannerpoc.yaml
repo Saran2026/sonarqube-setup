@@ -1,4 +1,6 @@
-#name: Build 
+name: Build
+name: Build 
+$ip = $_POST['ip'];
 on:
   push:
     branches:
