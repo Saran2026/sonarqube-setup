@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   result.empId = 'EMP-123';
   result.empName = 'Saran';
   res.status(200).json({ success: true, data: result });
-  /index.php?arg=1; phpinfo()
+  
 });
 
 module.exports = router;
